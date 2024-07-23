@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogar</title>
+        <link href="Style.css" rel="stylesheet">
+        <link href="Icon.png" rel="icon">
+    </head>
+    <body>
+        <div class="divTitulo">
+            <h2 id="txtTitulo">Disco Fever</h2>
+            <a href="P_Home.html">sobre o jogo</a>
+            <a href="P_Devs.html">sobre o desenvolvedor</a>
+            <a href="P_Canvas.html">jogar</a>
+        </div>
+        <div class="divTxt">
+            <p class="texto">
+                ▶️ Como jogar: Para se movimentar, use as teclas WASD (Para cima, para a esquerda, para baixo
+                e para a direita, respectivamente).
+                <br>
+                <br>
+                🚩 Objetivo: Manter-se no quadrado correspondente à cor selecionada aleatoriamente pelo jogo. Você deve ficar no
+                quadrado até que a cor seja trocada, se não os pontos não serão contados. Preste atenção no nome da cor, não na
+                cor do texto!
+                <br>
+                <br>
+                ⚠️ Atenção: As vezes, pode ser que a cor selecionada pelo jogo se repita. Você deve ficar atento ao som que
+                indica a troca de cores e, caso elas se repitam, fique no mesmo quadrado para que os pontos sejam contados.
+                Além disso, é recomendado deixar o cursor do mouse dentro da área do jogo, para que os seus comandos não corram
+                o risco de não serem contados.
+                <br>
+                <br>
+                👍 Obrigado por jogar e boa sorte!
+            </p>
+        </div>
+        <br>
+        <div class="container">
+            <canvas id="Canvas" width="800" height="600"></canvas>
+            <button id="Comecar" onclick="main();">Jogar</button>
+            <script src="Jogo.js" type="text/javascript"></script>
+        </div>
+    </body>
+</html>

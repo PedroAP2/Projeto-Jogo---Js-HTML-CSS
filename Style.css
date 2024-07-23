@@ -1,0 +1,109 @@
+/* Estilo do corpo da página */
+body{
+    background-image: url("Background.png");
+    background-size: cover;
+}
+
+/* Estilo da div do menu*/
+.divTitulo{
+    display: flex;
+    border: black 5px outset;
+    background-image: url("BackgroundTitulo.png");
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+/* Estilo do texto do título*/
+#txtTitulo{
+    color: whitesmoke;
+    font-family: "Bebas Neue";
+    font-size: 100pt;
+    margin: 0;
+}
+
+/* Estilo dos links */
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: "Bebas Neue";
+    font-size: 50pt;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+a:hover{
+    color: orangered;
+}
+a:active{
+    color: red;
+}
+
+/* Estilo das divs onde ficam os textos*/
+.divTxt{
+    display: flex;
+    flex-flow: wrap;
+    text-align: justify;
+    background-image: url("BackgroundTexto.png");
+}
+
+/* Estilo dos textos principais */
+.texto{
+    color: whitesmoke;
+    font-family: "Times New Roman";
+    font-size: 25pt;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Estilo da imagem na página principal*/
+#print{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo da div que contém o canvas */
+.container{
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+     width: 1000px;
+     height: 800px;
+}
+
+/* Estilo do canvas */
+#Canvas {
+    border: black 5px outset;
+    background-image: url("CanvasTitleScreen.png");
+    background-size: cover;
+}
+
+/* Estilo do botão Jogar */
+#Comecar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 250px;
+    height: 67px;
+    background-color: darkorange;
+
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    border: black 5px outset;
+}
+#Comecar:hover{
+    background-color: #ffa13c;
+    color: #1f1f1f;
+    border: #1f1f1f 5px inset;
+}
+#Comecar:active{
+    background-color: orangered;
+    color: black;
+    border: black 5px inset;
+}
+#Comecar:focus{
+    outline: none;
+ }
+
